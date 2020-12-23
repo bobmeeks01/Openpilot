@@ -308,12 +308,11 @@ class CarInterface(CarInterfaceBase):
       ret.longitudinalTuning.kpV = [1.2, 0.8, 0.5]
       ret.longitudinalTuning.kiV = [0.18, 0.12]
     else:
-<<<<<<< HEAD
       ret.gasMaxBP = [0.]
       ret.gasMaxV = [0.5]
       ret.longitudinalTuning.kpV = [3.6, 2.4, 1.5]
       ret.longitudinalTuning.kiV = [0.54, 0.36]
-=======
+
       # Testing different longitudinal settings, will apply to each car to get feedback
       #ret.gasMaxBP = [0.]
       #ret.gasMaxV = [0.5]
@@ -329,8 +328,6 @@ class CarInterface(CarInterfaceBase):
       ret.stoppingBrakeRate = 0.1 # reach stopping point smoothly
       ret.startingBrakeRate = 2.0 # release brakes fast
       # ================
->>>>>>> 2f651703... EXPERIMENTAL Long tune v2 for all Toyotas
-
     return ret
 
   # returns a car.CarState

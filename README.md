@@ -2,7 +2,7 @@
 =======================
 
 * @Bobmeeks Custom dbc file to address Lexus RX over-rev issue
-* @Briskspirit Toyota Long Tune V2
+* @Briskspirit Toyota Long Tune V3
 * @ErichMoraga Minimize custom branch warning
 
 [![](https://i.imgur.com/UelUjKAh.png)](#)

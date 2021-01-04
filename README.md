@@ -1,9 +1,10 @@
 2021 Lexus RX350L AWD Daily Driver Branch
 =======================
 
-* @Bobmeeks Custom dbc file to address Lexus RX over-rev issue
-* @Briskspirit Toyota Long Tune V3
+* @Bobmeeks01 dbc wheel_speed values to address Lexus RX over-rev issue
+* @Briskspirit Toyota Long Tune V2
 * @ErichMoraga Minimize custom branch warning
+* Custom CAMERA_OFFSET to account for my C2's sub-optimal mounting
 
 [![](https://i.imgur.com/UelUjKAh.png)](#)
 

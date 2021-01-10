@@ -103,7 +103,7 @@ class CarInterface(CarInterfaceBase):
       ret.lateralTuning.pid.kf = .00006     # 0.00007818594
 
     elif candidate == CAR.LEXUS_RXH_TSS2:
-[[      stop_and_go = True
+      stop_and_go = True
       ret.safetyParam = 73
       ret.wheelbase = 2.79
       ret.steerRatio = 16.0  # 14.8 is spec end-to-end

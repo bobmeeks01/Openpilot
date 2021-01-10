@@ -32,8 +32,8 @@ _A_CRUISE_MIN_BP = [  0.,  5.,  10., 20.,  40.]
 # _A_CRUISE_MAX_V_FOLLOWING = [1.6, 1.6, 0.65, .4]
 # _A_CRUISE_MAX_BP = [0.,  6.4, 22.5, 40.]
 
-_A_CRUISE_MAX_V = [1.8, 1.4, 0.55, .28]
-_A_CRUISE_MAX_V_FOLLOWING = [1.8, 1.4, 0.55, .28]
+_A_CRUISE_MAX_V = [1.9, 1.2, 0.55, .28]
+_A_CRUISE_MAX_V_FOLLOWING = [1.9, 1.2, 0.55, .28]
 _A_CRUISE_MAX_BP = [0.,  6.4, 21.5, 33.]
 
 # Lookup table for turns

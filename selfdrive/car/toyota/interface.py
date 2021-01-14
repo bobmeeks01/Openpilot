@@ -109,7 +109,7 @@ class CarInterface(CarInterfaceBase):
       ret.steerRatio = 16.0  # 14.8 is spec end-to-end
       tire_stiffness_factor = 0.444  # not optimized yet
       ret.mass = 4481.0 * CV.LB_TO_KG + STD_CARGO_KG  # mean between min and max
-      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.6], [0.15]]
+      ret.lateralTuning.pid.kpV, ret.lateralTuning.pid.kiV = [[0.38], [0.05]]
       ret.lateralTuning.pid.kf = 0.00007818594
 
     elif candidate in [CAR.CHR, CAR.CHRH]:

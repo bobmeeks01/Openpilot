@@ -74,8 +74,8 @@ class CarController():
     
     curr_speed_mph = CS.out.vEgo * CV.MS_TO_MPH
     
-    if curr_speed_mph < 10:
-       new_accel_max = 2.5
+    if curr_speed_mph < 15:
+       new_accel_max = 4.0
     else:
        new_accel_max = ACCEL_MAX
 
